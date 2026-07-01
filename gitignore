@@ -1,0 +1,41 @@
+# =============================================================================
+# .gitignore - Rainfall-Vegetation Relationship Analysis (Sleman 2025)
+# =============================================================================
+
+# Data mentah (terlalu besar untuk GitHub, dan bisa diunduh ulang dari sumber)
+data/raw/chirps/clipped_raster/*.tif
+data/raw/ndvi/extracted/*.tif
+data/raw/ndvi/*.zip
+data/raw/boundary/*.zip
+
+# Raster sementara hasil agregasi (mean/sum) - bisa dibuat ulang dari script
+data/outputs/_temp_rasters/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Spyder / IDE
+.spyderproject
+.spyproject
+.vscode/
+
+# QGIS temporary files
+*.qgz~
+*.qgs~
+*-shm
+*-wal
+
+# Virtual environment (jika pakai)
+venv/
+env/
+
+# Catatan: file CSV hasil olahan (merged_chirps_ndvi.csv, monthly_summary.csv)
+# dan semua .png di figures/ + maps/ TETAP di-upload karena itu hasil utama
+# yang ingin ditampilkan sebagai portofolio.
