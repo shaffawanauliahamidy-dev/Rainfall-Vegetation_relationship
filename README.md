@@ -2,7 +2,7 @@
 
 Analyzing the temporal relationship between rainfall and vegetation condition in Sleman Regency, Indonesia, throughout 2025, using remote sensing data and Python/QGIS-based geospatial analysis.
 
-![Project Dashboard](data/outputs/figures/Figure_04_Project_Dashboard.png)
+![Project Dashboard](figures/Figure_04_Project_Dashboard.png)
 
 ---
 
@@ -95,27 +95,27 @@ Pearson correlation between monthly total rainfall and monthly mean NDVI was com
 
 ### Monthly Rainfall
 
-![Monthly Rainfall](data/outputs/figures/Figure_01_Rainfall.png)
+![Monthly Rainfall](figures/Figure_01_Rainfall.png)
 
 ### Monthly NDVI
 
-![Monthly NDVI](data/outputs/figures/Figure_02_NDVI.png)
+![Monthly NDVI](figures/Figure_02_NDVI.png)
 
 ### Rainfall vs. NDVI Correlation
 
-![Rainfall vs NDVI](data/outputs/figures/Figure_03_Rainfall_vs_NDVI.png)
+![Rainfall vs NDVI](figures/Figure_03_Rainfall_vs_NDVI.png)
 
 ### Spatial Distribution — Mean NDVI 2025
 
-![NDVI Map](data/outputs/maps/Figure_05_NDVI_Map.png)
+![NDVI Map](maps/Figure_05_NDVI_Map.png)
 
 ### Spatial Distribution — Total Rainfall 2025
 
-![Rainfall Map](data/outputs/maps/Figure_06_Rainfall_Map.png)
+![Rainfall Map](maps/Figure_06_Rainfall_Map.png)
 
 ### Spatial Comparison
 
-![Comparison Map](data/outputs/maps/Figure_07_Comparison_Map.png)
+![Comparison Map](maps/Figure_07_Comparison_Map.png)
 
 ---
 
